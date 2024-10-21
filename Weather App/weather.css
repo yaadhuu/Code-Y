@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #1c1c2e, #4b4b72); 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    background: linear-gradient(145deg, #0078d7, #e73209); 
+    border-radius: 20px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.5); 
+    max-width: 750px;
+    text-align: center;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.weatherform {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cityinput {
+    padding: 10px 12px; 
+    font-size: 1.4rem;
+    font-weight: 500;
+    border: 1px solid #0078d7;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 250px; 
+    transition: border-color 0.3s ease;
+}
+
+.cityinput:focus {
+    outline: none;
+    border-color: #ff7f50;
+}
+
+button[type="submit"] {
+    padding: 8px 20px; 
+    font-size: 1.2rem;
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 200px; 
+}
+
+button[type="submit"]:hover {
+    background-color: #ff6347;
+}
+
+.card {
+    background: linear-gradient(145deg, #0078d7, #e73209); /* Softer gradient */
+    border-radius: 20px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2); 
+    padding: 50px;  */
+    max-width: 750px; 
+    text-align: center;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px); 
+}
+
+.cityDisplay {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.tempDisplay {
+    font-size: 4.5rem; 
+    font-weight: bold;
+    margin: 15px 0;
+    color: #ffeb3b; 
+}
+
+.humidityDisplay, .descDisplay {
+    font-size: 1.4rem;
+    margin: 8px 0;
+    color: #f5f5f5; 
+}
+
+.weatherEmoji {
+    font-size: 3.5rem;
+    margin: 20px 0;
+}
+
+.errorDisplay {
+    font-size: 1.1rem;
+    color: #e41616; 
+    margin-top: 10px;
+    display: none; 
+}
