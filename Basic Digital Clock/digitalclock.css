@@ -1,0 +1,24 @@
+body{
+    background-image:url(clockbg.jpg);
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode:color-burn;
+}
+#clockcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+#clock {
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    text-align: center;
+    color: dimgray;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Subtle text shadow for better readability */
+}
